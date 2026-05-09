@@ -1,0 +1,43 @@
+﻿*{
+    padding : 0px;
+    margin: 0px;
+}
+
+
+
+body {
+    background-color: rgba(0, 128, 0, 0.241);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.game{
+   height: 250px;
+   width: 250px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 5px;
+}
+
+
+.box{
+    height: 80px;
+   width: 80px;
+   border-radius: 10px;
+   border: none;
+   font-size: 40px;
+   color: red;
+   background-color: papayawhip;
+}
